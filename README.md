@@ -1,3 +1,3 @@
 Landing page for WordPress Care Plans
 
-[https://wp.rootscope.dev](https://wp.rootscope.dev)
+[https://wordpress.rootscope.dev](https://wordpress.rootscope.dev)
