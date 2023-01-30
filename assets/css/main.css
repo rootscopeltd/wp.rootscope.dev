@@ -68,7 +68,7 @@ a.text-primary-dark:hover {
 }
 
 .text-back.text-primary {
-  opacity: 1;
+  opacity: .7;
 }
 
 .rounded-xl {
