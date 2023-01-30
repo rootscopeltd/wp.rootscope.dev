@@ -67,6 +67,10 @@ a.text-primary-dark:hover {
   z-index: 0;
 }
 
+.text-back.text-primary {
+  opacity: 1;
+}
+
 .rounded-xl {
   border-radius: 3rem;
 }
