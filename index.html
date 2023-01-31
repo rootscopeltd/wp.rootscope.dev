@@ -23,13 +23,13 @@
     <body>
         <div id="page-container" class="position-relative">
             <!-- Background -->
-            <span class="square square-1"></span>
-            <span class="square square-2"></span>
+            <span class="square square-1" data-aos="fade-right"></span>
+            <span class="square square-2" data-aos="fade-left"></span>
 
             <!-- Hero -->
-            <div class="container" data-aos="fade-up">
+            <div class="container">
                 <!-- Header -->
-                <header class="py-4">
+                <header class="py-4" data-aos="fade-down">
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-xl-4 pb-2 text-center text-lg-left d-lg-flex align-items-lg-center">
                             <a class="h4 text-primary" href="https://wordpress.rootscope.dev/">
@@ -48,7 +48,7 @@
 
                 <!-- Content -->
                 <div class="row py-lg-5">
-                    <div class="col-lg-6 py-5 text-center text-lg-left">
+                    <div class="col-lg-6 py-5 text-center text-lg-left" data-aos="fade-right">
                         <h1 class="font-weight-bold mb-4">
                             We help small web agencies manage their WordPress sites
                         </h1>
@@ -59,7 +59,7 @@
                             <i class="fa fa-regular fa-envelope text-white-90 mr-1"></i> Contact
                         </a>
                     </div>
-                    <div class="col-lg-5 offset-lg-1 py-5 text-center">
+                    <div class="col-lg-5 offset-lg-1 py-5 text-center" data-aos="zoom-out">
                         <img class="img-fluid img-clip-overlay"
                             sizes="(max-width: 1000px) 100vw, 1000px"
                             srcset="
@@ -142,58 +142,7 @@
                     Our best plans
                 </h2>
                 <div class="row text-center pt-5">
-                    <div class="col-sm-6 col-lg-4 offset-lg-1 my-2">
-                        <div class="bg-light rounded-xl py-5 px-3 position-relative">
-                            <span class="text-back">
-                                <i class="fa fa-code"></i>
-                            </span>
-                            <h3 class="h3 font-weight-light mb-5">Standard</h3>
-                            <p class="h5 mb-4">
-                                <span class="text-primary">1</span>
-                                <span class="text-muted">Site</span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-primary">WP Core updates<br/></span>
-                                <span class="text-muted"><small class="font-weight-bolder">monthly</small></span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-primary">Plugin updates<br/></span>
-                                <span class="text-muted"><small class="font-weight-bolder">monthly</small></span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-primary">Backups<br/></span>
-                                <span class="text-muted"><small class="font-weight-bolder">monthly</small></span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-primary">Developer time<br/></span>
-                                <span class="text-muted"><small class="font-weight-bolder">30 minutes</small></span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-muted">Security monitoring</span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-muted">Uptime insights</span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-muted">Performance insights</span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-muted">Reports</span>
-                            </p>
-                            <p class="h5 mb-4">
-                                <span class="text-muted">Cancel anytime</span>
-                            </p>
-                            <p class="h4 pt-4">
-                                <span class="text-success">£24.99</span> per month
-                                <span class="text-muted"><br/><small>(+ VAT)</small></span>
-                            </p>
-                            <a href="https://buy.stripe.com/6oEeY27GS6e73YIaEH" class="btn btn-primary rounded-pill shadow-lg py-3 px-4 px-md-5 m-1">
-                                <i class="fa fa-thumbs-up text-white-90 mr-1"></i> Get started
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-2 mt-n4">
+                    <div class="offset-lg-2 col-sm-6 col-lg-4 mb-2 mt-n4">
                         <div class="bg-light rounded-xl py-5 px-3 position-relative">
                             <span class="text-back text-primary">
                                 <i class="fa fa-business-time"></i>
@@ -248,6 +197,57 @@
                             <a href="https://buy.stripe.com/28o9DI7GS6e71QA004" class="btn btn-primary rounded-pill shadow-lg py-3 px-4 px-md-5 m-1">
                                 <i class="fa fa-thumbs-up text-white-90 mr-1"></i> Get started
                             </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-2">
+                        <div class="bg-light rounded-xl py-5 px-3 position-relative">
+                            <span class="text-back">
+                                <i class="fa fa-code"></i>
+                            </span>
+                            <h3 class="h3 font-weight-light mb-5">Standard</h3>
+                            <p class="h5 mb-4">
+                                <span class="text-primary">1</span>
+                                <span class="text-muted">Site</span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-primary">WP Core updates<br/></span>
+                                <span class="text-muted"><small class="font-weight-bolder">monthly</small></span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-primary">Plugin updates<br/></span>
+                                <span class="text-muted"><small class="font-weight-bolder">monthly</small></span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-primary">Backups<br/></span>
+                                <span class="text-muted"><small class="font-weight-bolder">monthly</small></span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-primary">Developer time<br/></span>
+                                <span class="text-muted"><small class="font-weight-bolder">30 minutes</small></span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-muted">Security monitoring</span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-muted">Uptime insights</span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-muted">Performance insights</span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-muted">Reports</span>
+                            </p>
+                            <p class="h5 mb-4">
+                                <span class="text-muted">Cancel anytime</span>
+                            </p>
+                            <p class="h4 pt-4">
+                                <span class="text-success">£24.99</span> per month
+                                <span class="text-muted"><br/><small>(+ VAT)</small></span>
+                            </p>
+                            <a href="https://buy.stripe.com/6oEeY27GS6e73YIaEH" class="btn btn-primary rounded-pill shadow-lg py-3 px-4 px-md-5 m-1">
+                                <i class="fa fa-thumbs-up text-white-90 mr-1"></i> Get started
+                            </a>
+
                         </div>
                     </div>
                 </div>
