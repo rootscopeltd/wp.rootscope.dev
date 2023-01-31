@@ -253,31 +253,33 @@
             </div>
             <!-- END Plans -->
             <!-- Contact -->
-            <div class="container bg-light" id="contact" data-aos="slide-up">
-                <h2 class="font-weight-bold mb-5 text-center">
-                    Contact us to discuss your needs.
-                </h2>
-                <div class="col-sm-6 col-lg-4 mt-2 mb-5 mx-auto">
-                    <div class="alert alert-success d-none" role="alert">
-                        Your message has been successfully. We'll get back to you shortly.
+            <div class="bg-light py-5">
+                <div class="container text-center" id="contact" data-aos="slide-up">
+                    <h2 class="font-weight-bold mb-5">
+                        Contact us to discuss your needs.
+                    </h2>
+                    <div class="col-sm-6 col-lg-4 mt-2 mb-5 mx-auto">
+                        <div class="alert alert-success d-none" role="alert">
+                            Your message has been successfully. We'll get back to you shortly.
+                        </div>
+                        <form method="POST" accept-charset="UTF-8" id="form">
+                            <div class="form-group">
+                                <label for="emailAddress">Email address</label>
+                                <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="yourName">Your name</label>
+                                <input type="text" class="form-control" id="yourName" placeholder="Enter your name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="yourMessage">Your message</label>
+                                <textarea class="form-control" id="yourMessage" rows="3" name="message" required></textarea>
+                            </div>
+                            <!-- add hidden Honeypot input to prevent spams -->
+                            <input type="hidden" name="_gotcha" style="display:none !important">
+                            <button type="submit" class="btn btn-primary mb-2 rounded-pill shadow-lg py-3 px-4 px-md-5">Send</button>
+                        </form>
                     </div>
-                    <form method="POST" accept-charset="UTF-8" id="form">
-                        <div class="form-group">
-                            <label for="emailAddress">Email address</label>
-                            <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="yourName">Your name</label>
-                            <input type="text" class="form-control" id="yourName" placeholder="Enter your name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="yourMessage">Your message</label>
-                            <textarea class="form-control" id="yourMessage" rows="3" name="message" required></textarea>
-                        </div>
-                        <!-- add hidden Honeypot input to prevent spams -->
-                        <input type="hidden" name="_gotcha" style="display:none !important">
-                        <button type="submit" class="btn btn-primary mb-2">Send</button>
-                    </form>
                 </div>
             </div>
             <!-- END Contact -->
