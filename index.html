@@ -343,7 +343,8 @@
 
             function formSubmit(e) {
                 e.preventDefault();
-                const formData = new FormData(e.target);
+                const form = e.target;
+                const formData = new FormData(form);
 
                 fetch("https://getform.io/f/c71f430c-6305-4cbc-af9e-f0f676d50ad6", {
                     method: "POST",
@@ -358,6 +359,7 @@
                     if (response.ok) {
                         alertContainer.classList.remove('d-none')
                     }
+                    form.reset()
                     window.clearTimeout(timer)
                     timer = setTimeout(() => {
                         alertContainer.classList.add('d-none')
