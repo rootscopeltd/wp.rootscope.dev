@@ -185,10 +185,10 @@
                 body: new URLSearchParams(formData).toString(),
               })
                 .then(() => {
-                    console.log('Form posted sucesfully')
+                    console.log('Form posted successfully')
                     const alertContainer = document.querySelector('.alert-success')
                     alertContainer.classList.remove('d-none')
-
+                    myForm.reset()
                     window.clearTimeout(timer)
                     timer = setTimeout(() => {
                         alertContainer.classList.add('d-none')
