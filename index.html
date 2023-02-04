@@ -5,15 +5,30 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+        <!-- SEO -->
+        <meta property="og:title" content="WordPress Care Plans | RootScope" />
+        <meta property="og:description" content="Our WordPress care plans will make your site fast, secure and high performing. We will take care of your site maintenance so you can focus on your business." />
+        <meta property="og:image" content="https://wordpress.rootscope.dev/assets/images/wp_developer_w_1000.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://wordpress.rootscope.dev" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="WordPress Care Plans | RootScope" />
+        <meta name="twitter:url" content="https://wordpress.rootscope.dev" />
+        <meta name="twitter:description" content="Our WordPress care plans will make your site fast, secure and high performing. We will take care of your site maintenance so you can focus on your business." />
+        <meta name="twitter:creator" content="RootScope" />
+        <link rel="canonical" href="https://wordpress.rootscope.dev" />
+
         <title>WordPress Care Plans | RootScope</title>
 
-        <meta name="description" content="Care plans for WordPress sites provided by RootScope">
+        <meta name="description" content="Our WordPress care plans will make your site fast, secure and high performing. We will take care of your site maintenance so you can focus on your business.">
         <meta name="author" content="RootScope">
         <meta name="robots" content="index, follow">
 
         <!-- Stylesheets -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="DNS-prefetch" href="//fonts.googleapis.com"/>
+        <link rel="DNS-prefetch" href="//fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/dist/bootstrap.min.css">
         <link rel="stylesheet" href="/dist/fontawesome.min.css"/>
@@ -32,8 +47,8 @@
                 <header class="py-4" data-aos="fade-down">
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-xl-4 pb-2 text-center text-lg-left d-lg-flex align-items-lg-center">
-                            <a class="h4 text-primary" href="https://wordpress.rootscope.dev/">
-                                <img class="w-25 p-2 mr-3" src="/assets/images/logo-menu.png"/><span class="text-primary-dark">WordPress Care Plans</span>
+                            <a class="h4 text-primary" href="https://wordpress.rootscope.dev">
+                                <img class="w-25 p-2 mr-3" src="/assets/images/logo-menu.png" alt="RootScope Logo" title="RootScope"/><span class="text-primary-dark">WordPress Care Plans</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-xl-4 pb-2">
@@ -67,7 +82,7 @@
                             /assets/images/wp_developer_w_547.jpg 547w,
                             /assets/images/wp_developer_w_797.jpg 797w,
                             /assets/images/wp_developer_w_1000.jpg 1000w"
-                            src="wp_developer_w_1000.jpg"
+                            src="/assets/images/wp_developer_w_547.jpg"
                             alt="WordPress developer">
                     </div>
                 </div>
@@ -165,7 +180,7 @@
                             </p>
                             <p class="h5 mb-4">
                                 <span class="text-primary">Backups<br/></span>
-                                <span class="text-muted"><small class="font-weight-bolder">weekly</small></span>
+                                <span class="text-muted"><small class="font-weight-bolder">daily</small></span>
                             </p>
                             <p class="h5 mb-4">
                                 <span class="text-primary">Developer time<br/></span>
@@ -218,7 +233,7 @@
                             </p>
                             <p class="h5 mb-4">
                                 <span class="text-primary">Backups<br/></span>
-                                <span class="text-muted"><small class="font-weight-bolder">monthly</small></span>
+                                <span class="text-muted"><small class="font-weight-bolder">weekly</small></span>
                             </p>
                             <p class="h5 mb-4">
                                 <span class="text-primary">Developer time<br/></span>
@@ -295,6 +310,7 @@
                         <p>
                             Made by <a class="text-primary font-weight-600" href="https://rootscope.co.uk/">RootScope</a>
                         </p>
+                        <a class="text-primary font-weight-600" href="https://billing.stripe.com/p/login/cN25ogagvcHUgms6oo" target="_blank" rel="noopener noreferrer">Manage subscription</a>
                         <a class="text-primary font-weight-600" href="/terms">Terms of Service</a>
                         <a class="text-primary font-weight-600" href="/privacy">Privacy Policy</a>
                         <p>
@@ -312,9 +328,14 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/@telemetrydeck/sdk/dist/telemetrydeck.min.js" defer></script>
+        <script src="/dist/app.js"></script>
         <script>
             window.td = window.td || [];
-            td.push(['app', '72E0D981-7414-44B3-A441-1E31219C7635'], ['user', 'anonymous'], ['signal']);
+            td.push(
+                ['app', '72E0D981-7414-44B3-A441-1E31219C7635'],
+                ['user', getUUID()],
+                ["signal", { route: "/" }]
+            );
         </script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
@@ -327,7 +348,8 @@
 
             function formSubmit(e) {
                 e.preventDefault();
-                const formData = new FormData(e.target);
+                const form = e.target;
+                const formData = new FormData(form);
 
                 fetch("https://getform.io/f/c71f430c-6305-4cbc-af9e-f0f676d50ad6", {
                     method: "POST",
@@ -342,6 +364,7 @@
                     if (response.ok) {
                         alertContainer.classList.remove('d-none')
                     }
+                    form.reset()
                     window.clearTimeout(timer)
                     timer = setTimeout(() => {
                         alertContainer.classList.add('d-none')
