@@ -252,3 +252,9 @@ a:hover {
 .nav-header .nav-link + .nav-link {
   margin-left: 2rem;
 }
+.hr-line {
+  background: linear-gradient(to right,transparent,#26d0ce,transparent);
+  height: 1px;
+  display: block;
+  width: 50%;
+}
