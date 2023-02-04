@@ -1,0 +1,22 @@
+{
+  "title": "Wordpress Care Plans from RootScope",
+  "name": "wordpress.rootscope.dev",
+  "author": "RootScope Limited",
+  "license": "0BSD",
+  "bugs": {
+      "url": "https://github.com/rootscopeltd/wp.rootscope.dev/issues"
+  },
+  "scripts": {
+      "minify": "minify ./assets/css/main.css > ./assets/css/main.min.css",
+      "start": "npx serve",
+      "build": "purgecss --css ./assets/css/*.min.css -o ./dist/ --content ./*.html -s '*', ':root', ':after', ':before'"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/rootscopeltd/wp.rootscope.dev.git"
+  },
+  "devDependencies": {
+    "minify": "^9.2.0",
+    "purgecss": "^5.0.0"
+  }
+}
