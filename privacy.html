@@ -222,7 +222,10 @@
             td.push(
                 ['app', '72E0D981-7414-44B3-A441-1E31219C7635'],
                 ['user', getUUID()],
-                ["signal", { route: "/privacy" }]
+                ["signal", {
+                    route: "/",
+                    referrer: document.referrer,
+                }]
             );
         </script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
