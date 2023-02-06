@@ -4,5 +4,5 @@ package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   exclude = [
     './confirmation.html',
-    './node_modules/*',
+    './node_modules/**',
   ]
