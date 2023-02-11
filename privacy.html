@@ -212,22 +212,10 @@
         </div>
 
         <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/@telemetrydeck/sdk/dist/telemetrydeck.min.js" defer></script>
-        <script src="/dist/app.js"></script>
-        <script>
-            window.td = window.td || [];
-            td.push(
-                ['app', '72E0D981-7414-44B3-A441-1E31219C7635'],
-                ['user', getUUID()],
-                ["signal", {
-                    route: "/",
-                    referrer: document.referrer,
-                }]
-            );
-        </script>
+        <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="ba6dbc1e-67af-47a7-8afe-6542b1689a27" async></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
