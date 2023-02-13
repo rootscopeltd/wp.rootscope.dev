@@ -9,7 +9,7 @@
   "scripts": {
       "minify": "minify ./assets/css/main.css > ./assets/css/main.min.css",
       "start": "npx serve",
-      "build": "purgecss --css ./assets/css/*.min.css -o ./dist/ --content ./*.html -s '*', ':root', ':after', ':before'"
+      "build": "mkdir -p ./dist ; purgecss --css ./assets/css/*.min.css -o ./dist/ --content ./*.html -s '*', ':root', ':after', ':before'"
   },
   "repository": {
       "type": "git",
