@@ -258,3 +258,7 @@ a:hover {
   display: block;
   width: 50%;
 }
+
+.card:nth-child(even) .card-header {
+  background-color: rgba(0, 0, 0, .1);
+}
