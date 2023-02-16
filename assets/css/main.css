@@ -259,6 +259,20 @@ a:hover {
   width: 50%;
 }
 
+.card {
+  border: none;
+}
+
+.card-header {
+  border-bottom: none;
+}
+.card:nth-child(odd) .card-header {
+  background-color: #fff;
+}
 .card:nth-child(even) .card-header {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: #f7f8fd;
+}
+
+.contact .square-flipped.square {
+  bottom: 6%;
 }
