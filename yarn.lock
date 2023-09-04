@@ -42,10 +42,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@putout/minify@^1.0.4":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@putout/minify/-/minify-1.44.0.tgz#c634d26f46b1cd0356f60959aec30da90cdec585"
-  integrity sha512-e8OpZzn1HH5Y+1dB6GYgnTDZF0D/wKNzvSGY3qm1QBg3TnOBIW5dJ5SPQg3fbMYajvZQYinMRfeA20taDpPFXw==
+"@putout/minify@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@putout/minify/-/minify-2.0.1.tgz#ee72aaa9e7cbf6ff15dcb9fdef0137f0d832bfe5"
+  integrity sha512-m98CrmfDNxMmS8npnwF5VhTTL4oTSnf0Sdk3oQP4E2jADwOIjbUWPLHspMBATFKD9WmgXCak1aBVnwVX3pzhIg==
 
 acorn@^8.5.0:
   version "8.8.2"
@@ -200,12 +200,12 @@ lower-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 
-minify@^10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-10.3.0.tgz#f01f5953ffdccfc38661abffe3e4022561b9cd6b"
-  integrity sha512-eRkx2J1ykkGBVi1gI2sksmovWFzts+GYi2u3Jd/S5eNIkzj0pidciICsWRWdTKTLZVFUP7b6IvoAzasvQkMicg==
+minify@^10.5.2:
+  version "10.5.2"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-10.5.2.tgz#6fad8cdecbb17e880888c0130bb622fc259c2f1d"
+  integrity sha512-/7aNrZ7kMe43o0NQUftL/H9QBi15FYEUo7tnw0Nrcc+XsmNS6nP4cIL4iqrNzSzv1rUaHLBxpmYbETKT9dKZiQ==
   dependencies:
-    "@putout/minify" "^1.0.4"
+    "@putout/minify" "^2.0.0"
     clean-css "^5.0.1"
     css-b64-images "~0.2.5"
     debug "^4.1.0"
