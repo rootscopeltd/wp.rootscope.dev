@@ -6,3 +6,6 @@ package = "@netlify/plugin-sitemap"
     './confirmation.html',
     './node_modules/**',
   ]
+
+[[redirects]]
+https://wordpress.rootscope.dev/* https://wp-maintenance.pro/:splat 301!
