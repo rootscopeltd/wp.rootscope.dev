@@ -10,5 +10,5 @@ package = "@netlify/plugin-sitemap"
 [[redirects]]
   from = "https://wordpress.rootscope.dev/*"
   to = "https://wp-maintenance.pro/:splat"
-  status = "301"
-  force = "true"
+  status = 301
+  force = true
