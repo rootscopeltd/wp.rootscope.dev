@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "minify": "^11.1.1",
-    "purgecss": "^5.0.0"
+    "purgecss": "^6.0.0"
   }
 }
