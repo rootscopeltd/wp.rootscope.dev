@@ -16,7 +16,7 @@
       "url": "https://github.com/rootscopeltd/wp.rootscope.dev.git"
   },
   "devDependencies": {
-    "minify": "^11.2.1",
+    "minify": "^11.4.0",
     "purgecss": "^6.0.0"
   }
 }
