@@ -526,10 +526,10 @@ lru-cache@^10.2.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.0.tgz#0bd445ca57363465900f4d1f9bd8db343a4d95c3"
   integrity sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==
 
-minify@^11.4.0:
-  version "11.4.0"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-11.4.0.tgz#8cf6f634cd115c40b297ece06d9832e6417c30f7"
-  integrity sha512-JG0lzxYcNi+UdcqcYDXzllb5Q2GEIaOYZ2yxwX4Y0QE5ffupP4TldbZkVTSFqUwXWhmkaS/vMmZHxKQR+HzWEg==
+minify@^11.4.1:
+  version "11.4.1"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-11.4.1.tgz#9e2ca6e2f9b5eae9fe39f2e2a2b15411c2803097"
+  integrity sha512-G1a1cSxR+5J4ixbfNSXU1OeXB8J6dFSlYpnS3GiPxYBSLoe51RE8UWj3sHXzZNxqWFvZkpcU/VSSCJtHyRZmdQ==
   dependencies:
     "@putout/minify" "^4.0.0"
     "@swc/core" "^1.6.7"
