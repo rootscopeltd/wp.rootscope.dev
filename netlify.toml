@@ -3,6 +3,7 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   exclude = [
+    './hosting-lite.html',
     './confirmation.html',
     './node_modules/**',
   ]
