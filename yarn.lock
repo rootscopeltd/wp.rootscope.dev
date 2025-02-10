@@ -593,10 +593,10 @@ lru-cache@^11.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.0.2.tgz#fbd8e7cf8211f5e7e5d91905c415a3f55755ca39"
   integrity sha512-123qHRfJBmo2jXDbo/a5YOQrJoHF/GNQTLzQ5+IdK5pWpceK17yRc6ozlWd25FxvGKQbIUs91fDFkXmDHTKcyA==
 
-minify@^12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-12.0.1.tgz#8d93ad208a423e909fcc3a6feb50c23ef05579ba"
-  integrity sha512-9/QKcnvtpaGR8g4zaQTmha3pkIE1qfkEzistHFJjwXEDm8d0dpl6aDKUAuUVTnE6HisKhXY87mirO72zksMX/Q==
+minify@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-13.0.0.tgz#3d0e681f7491b09112fef27702b182ce5a841345"
+  integrity sha512-a8l1p6RWDDHjH9kAaSAapu2m20ozhJ+sfkY9GljvDVXDRSDQME+5zZPbooOC8e17ej95y5k8q47NfN/ceCkLqg==
   dependencies:
     "@putout/minify" "^4.0.0"
     "@swc/core" "^1.6.7"
@@ -607,6 +607,7 @@ minify@^12.0.1:
     find-up "^7.0.0"
     html-minifier-terser "^7.1.0"
     lightningcss "^1.28.1"
+    montag "^1.2.1"
     readjson "^2.2.2"
     simport "^1.2.0"
     terser "^5.28.1"
@@ -624,6 +625,11 @@ minipass@^7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-7.1.2.tgz#93a9626ce5e5e66bd4db86849e7515e92340a707"
   integrity sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==
+
+montag@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/montag/-/montag-1.2.1.tgz#2a7a56a623ab0427434aa3e69d9c3d35afa23460"
+  integrity sha512-YFuR6t5KhDlmAnUmVSxGzNcpWqSDqxbd95tvnEnn7X9yFv7g3kDFoRjwyGayVdF/NNoWk7YW7IxUjilnGnoC5Q==
 
 ms@2.1.2:
   version "2.1.2"
